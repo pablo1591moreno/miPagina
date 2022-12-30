@@ -194,9 +194,10 @@ h2 {
 
 footer {
   border-radius: 10px;
-  padding: 30px 40px;
+  padding: 30px ;
   background-color: #180f0f;
   box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 35px;
+  margin: 40px 0;
 }
 
 /* ---------------------------------------------------------------------------------- TABLET */
