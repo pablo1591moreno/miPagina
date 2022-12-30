@@ -1,6 +1,5 @@
 /* ---------------------------------------------------------------------------------- DESKTOP */
 body {
-
   background-image: url(/img/fondo.png);
   background-position: top;
   background-size: cover;
@@ -8,10 +7,9 @@ body {
 }
 
 .boxed-page {
-  padding: 90px 150px 10px;
+  padding: 50px 150px 10px;
   background-color: #000000a8;
 }
-
 
 p {
   font-size: 20px;
@@ -56,25 +54,29 @@ h2 {
 }
 
 /*----------------------------------------- HERRAMIENTAS*/
-
-.iconos {
-  max-width: 60px;
+.icons{
+  text-align: center;  
   transition: transform 0.2s;
 }
 
-.iconos:hover {
-  transform: scale(1.2);
+.iconText{  
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.PNG {
+  max-width: 60px;  
+}
+
+.icons:hover {
+  transform: scale(1.2);   
 }
 
 .fa-brands {
-  font-size: 60px;
-  transition: transform 0.2s;
+  font-size: 50px;
   color: #ffcaca;
 }
 
-.fa-brands:hover {
-  transform: scale(1.2);
-}
 
 .herramientas {
   background-color: #180f0f;
@@ -87,6 +89,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+.herramientas div{
+  padding-bottom: 5px;
+}
+
 /*----------------------------------------- SECCION TRABAJOS FRONT END */
 
 .textFE {
@@ -95,20 +101,13 @@ h2 {
   padding: 30px;
   border-radius: 10px;
   background-color: #180f0f;
-  box-shadow: rgba(0, 0, 0, 0.658) 0px 5px 35px; 
-     
+  box-shadow: rgba(0, 0, 0, 0.658) 0px 5px 35px;      
 }
 
 .textFE i{
   margin-left: 20px;
   font-size: 30px;
   color: #9EA1D4;
-}
-
-.imageFE {
-  width: 600px;
-  height: 400px;
-  border-radius: 10px;    
 }
 
 .FE {
@@ -129,11 +128,17 @@ h2 {
   margin-bottom: 30px;
 }
 
-
-
 .HerramientasFE {
   display: flex;
   align-items: center;  
+}
+
+.HerramientasFE i{
+  transition: transform 0.2s;
+}
+
+.HerramientasFE i:hover{
+  transform: scale(1.2);
 }
 
 .codigo{
@@ -141,6 +146,22 @@ h2 {
   color: #9EA1D4;  
 }
 
+.imageFE {
+  height:100%;  
+  object-fit: cover;  
+  transition: transform 0.6s;
+}
+
+.cajaDeImagen{
+  width: 1400px;
+  height: 400px;  
+  border-radius: 10px;  
+  overflow: hidden;
+}
+
+.imageFE:hover{
+  transform: scale(1.2);
+}
 
 /*----------------------------------------- SECCION DE DISEÑO GRAFICO */
 
@@ -157,13 +178,19 @@ h2 {
   height: 260px;  
   margin-bottom: 30px;
   border-radius: 10px;
-  object-fit:cover;  
+  object-fit:cover; 
+  cursor: pointer;    
 }
 
 .imageTexto {
   width: 30%;
   text-align: center;
 }
+
+.textosDG{
+  font-size: 25px;
+}
+
 
 /* ------------- MODAL */
 
@@ -180,12 +207,10 @@ h2 {
   justify-content: center;
 }
 
-.modal-content {
-  width: 55%;
-}
 
-.modal-image {
-  width: 100%;
+#modal-image {
+  height: 650px;  
+  border-radius: 10px;
 }
 
 .hidden {
@@ -198,6 +223,12 @@ footer {
   background-color: #180f0f;
   box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 35px;
   margin: 40px 0;
+}
+
+
+footer i:hover{
+  transform: scale(1.2);
+  transition: transform 0.2s;
 }
 
 /* ---------------------------------------------------------------------------------- TABLET */

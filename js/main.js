@@ -14,6 +14,6 @@ modal.addEventListener('click', e => {
   modal.classList.add('hidden');
 });
 
-document.getElementById('modal-content').addEventListener('click', e => {
+document.getElementById('modal-image').addEventListener('click', e => {
   e.stopPropagation();
 });
