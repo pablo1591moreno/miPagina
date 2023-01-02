@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------------------- DESKTOP */
 body {
-  background-image: url(/img/fondo.png);
+  background-image: url(img/fondo.png);
   background-position: top;
   background-size: contain;
   font-family: 'Poppins', sans-serif;
