@@ -1,6 +1,5 @@
 /* ---------------------------------------------------------------------------------- DESKTOP */
 body {
-  /* background-image: url(img/fondo.png); */
   background-position: top;
   background-size: contain;
   font-family: 'Poppins', sans-serif;
@@ -12,7 +11,7 @@ body {
 }
 
 p {
-  font-size: 19px;
+  font-size: 16px;
 }
 
 h1,
@@ -127,9 +126,11 @@ h2 {
   transform: scale(1.2);
 }
 
-.codigo {
-  font-size: 18px;
-  color: #9EA1D4;
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #9EA1D4;
+  color:#ffecef;
 }
 
 .imageFE:hover {
