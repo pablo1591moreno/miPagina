@@ -96,24 +96,9 @@ h2 {
 /*----------------------------------------- SECCION TRABAJOS FRONT END */
 
 .imgTextFE {
-  display: flex;
-  gap: 50px;
-  margin-bottom: 50px;
-}
-
-.textFE {
-  text-align: justify;
-  width: 50%;
-  padding: 30px;
-  border-radius: 10px;
-  background-color: #180f0f;
-  box-shadow: rgba(0, 0, 0, 0.658) 0px 5px 35px;
-}
-
-.textFE i {
-  margin-left: 15px;
-  font-size: 30px;
-  color: #9EA1D4;
+  display: flex;  
+  margin-bottom: 30px;
+  gap: 30px;
 }
 
 .FE {
@@ -126,8 +111,7 @@ h2 {
 
 .imgTextFEultima {
   display: flex;
-  gap: 50px;
-  margin-bottom: 30px;
+  gap: 30px;  
 }
 
 .HerramientasFE {
@@ -144,26 +128,44 @@ h2 {
 }
 
 .codigo {
-  font-size: 20px;
+  font-size: 18px;
   color: #9EA1D4;
-}
-
-.imageFE {
-  width: 100%;
-  height: 380px;
-  transition: transform 0.6s;
-}
-
-.cajaDeImagen {
-  width: 50%;
-  height: 380px;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
 .imageFE:hover {
   transform: scale(1.2);
 }
+
+.textFE i {
+  margin-left: 15px;
+  font-size: 20px;
+  color: #9EA1D4;
+}
+
+.textFE {
+  width: 60%;
+  height: auto; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+  background-color: #180f0f;
+  box-shadow: rgba(0, 0, 0, 0.658) 0px 5px 35px;
+}
+
+.cajaDeImagen {  
+  width: 40%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imageFE {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s;
+}
+
 
 /*----------------------------------------- SECCION DE DISEÑO GRAFICO */
 
