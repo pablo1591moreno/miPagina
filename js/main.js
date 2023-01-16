@@ -17,3 +17,11 @@ modal.addEventListener('click', e => {
 document.getElementById('modal-image').addEventListener('click', e => {
   e.stopPropagation();
 });
+
+const icons = document.querySelectorAll('.icons');
+
+setTimeout(() => {
+    icons.forEach(icon => {
+        icon.style.visibility = "visible";
+    });
+}, 1000);
